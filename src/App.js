@@ -20,7 +20,7 @@ const App = () => {
       <Kanban />
     </div>
   ) : (
-    <div>
+    <div style={{ marginTop: "30px" }}>
       <div className="load"></div>
       <div
         style={{
