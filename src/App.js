@@ -20,7 +20,49 @@ const App = () => {
       <Kanban />
     </div>
   ) : (
-    <Preloader />
+    <div>
+      <div className="load"></div>
+      <div
+        style={{
+          display: "flex",
+          gap: "30px",
+          paddingLeft: "30px",
+          paddingRight: "30px",
+          marginTop: "50px",
+        }}
+      >
+        <div>
+          <div className="line"></div>
+          <Preloader />
+          <Preloader />
+          <Preloader />
+        </div>
+        <div>
+          <div className="line"></div>
+          <Preloader />
+          <Preloader />
+          <Preloader />
+        </div>
+        <div>
+          <div className="line"></div>
+          <Preloader />
+          <Preloader />
+          <Preloader />
+        </div>
+        <div>
+          <div className="line"></div>
+          <Preloader />
+          <Preloader />
+          <Preloader />
+        </div>
+        <div>
+          <div className="line"></div>
+          <Preloader />
+          <Preloader />
+          <Preloader />
+        </div>
+      </div>
+    </div>
   );
 };
 

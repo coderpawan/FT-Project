@@ -36,3 +36,25 @@
 .relative{
   position: relative;
 }
+
+.load{
+  height: 30px;
+  margin-left: 20px;
+  width: 8%;
+  background: linear-gradient(-45deg, #ccc, #eee, #ccc, #eee);
+ /* Shimmering effect gradient */
+  background-size: 400% 400%;
+  border-radius: 8px;
+  animation: shimmer 3s linear infinite;
+}
+.line{
+  height: 30px;
+  margin-left: 15px;
+  margin-bottom: 40px;
+  width: 90%;
+  background: linear-gradient(-45deg, #ccc, #eee, #ccc, #eee);
+ /* Shimmering effect gradient */
+  background-size: 400% 400%;
+  border-radius: 8px;
+  animation: shimmer 3s linear infinite;
+}
