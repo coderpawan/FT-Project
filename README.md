@@ -1,5 +1,9 @@
 # FT-Project
-This is my project for my FT submission
+This is my Responsive Quicksell Kanban Board project for my FT submission
+
+Mobile View --->
+
+![Project Screenshot](https://github.com/coderpawan/FT-Project/blob/main/public/images/img6.jpg)
 
 Preloader --->
 
