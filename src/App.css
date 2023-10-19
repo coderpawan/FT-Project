@@ -64,11 +64,16 @@
    .tablet{
     display:none;
    }
-
+   .load{
+    width: 15%;
+  }
 }
 
 @media (max-width: 767px) {
     .mobile{
       display:none;
+    }
+    .load{
+      width: 30%;
     }
 }
