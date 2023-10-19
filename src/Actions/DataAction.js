@@ -27,6 +27,7 @@ export const selectData =
       const mp = new Map();
       if (group === "status") {
         myuser = allTickets.allUser;
+        // eslint-disable-next-line array-callback-return
         myuser.map((item) => {
           //   console.log(item);
           mp.set(item.id, item);
@@ -75,6 +76,7 @@ export const selectData =
         });
       } else {
         myuser = allTickets.allUser;
+        // eslint-disable-next-line array-callback-return
         myuser.map((item) => {
           //   console.log(item);
           mp.set(item.id, item);
