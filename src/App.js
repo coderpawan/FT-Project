@@ -37,25 +37,25 @@ const App = () => {
           <Preloader />
           <Preloader />
         </div>
-        <div>
+        <div className="mobile">
           <div className="line"></div>
           <Preloader />
           <Preloader />
           <Preloader />
         </div>
-        <div>
+        <div className="mobile">
           <div className="line"></div>
           <Preloader />
           <Preloader />
           <Preloader />
         </div>
-        <div>
+        <div className="mobile tablet">
           <div className="line"></div>
           <Preloader />
           <Preloader />
           <Preloader />
         </div>
-        <div>
+        <div className="mobile tablet">
           <div className="line"></div>
           <Preloader />
           <Preloader />
