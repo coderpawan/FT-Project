@@ -36,6 +36,7 @@ const App = () => {
           <Preloader />
           <Preloader />
           <Preloader />
+          <Preloader className="mobdis" />
         </div>
         <div className="mobile">
           <div className="line"></div>
