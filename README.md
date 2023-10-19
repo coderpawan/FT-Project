@@ -1,3 +1,3 @@
 # FT-Project
 This is my project for my FT submission
-![Project Screenshot](images/img1.jpg)
+![Project Screenshot](blob/main/public/images/img1.jpg)
