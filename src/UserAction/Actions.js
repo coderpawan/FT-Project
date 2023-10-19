@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const fetchAllData = () => async (dispatch) => {
+export const DataFetching = () => async (dispatch) => {
   try {
     dispatch({ type: "DATA_REQUEST" });
 
@@ -14,7 +14,7 @@ export const fetchAllData = () => async (dispatch) => {
   }
 };
 
-export const selectData =
+export const DataGrouping =
   (group, allTickets, orderValue) => async (dispatch) => {
     try {
       dispatch({ type: "SELECT_DATA_REQUEST" });

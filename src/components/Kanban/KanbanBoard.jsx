@@ -6,10 +6,10 @@ import { TbClockExclamation } from "react-icons/tb";
 import { HiPauseCircle } from "react-icons/hi2";
 import { BsThreeDots, BsExclamationSquareFill } from "react-icons/bs";
 import { TbAntennaBars3, TbAntennaBars4, TbAntennaBars5 } from "react-icons/tb";
-import "./KanbanView.css";
-import Card2 from "../Card/Card2";
-import Card1 from "../Card/Card1";
-import Card3 from "../Card/Card3";
+import "./KanbanBoard.css";
+import Card2 from "../Cards/UserCard";
+import Card1 from "../Cards/PriorityCard";
+import Card3 from "../Cards/StatusCard";
 
 const getRandomColor = () => {
   const darkColors = ["#007BFF", "#6610F2", "#343A40", "#333333"];

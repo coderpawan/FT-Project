@@ -1,6 +1,6 @@
 import React from "react";
 // import { Circles } from "react-loader-spinner";
-import "./Loading.css";
+import "./Preloader.css";
 
 const Loading = () => {
   return (
