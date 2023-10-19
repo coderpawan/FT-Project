@@ -36,16 +36,18 @@ const App = () => {
           <Preloader />
           <Preloader />
           <Preloader />
-          <Preloader className="mobdis" />
-        </div>
-        <div className="mobile">
-          <div className="line"></div>
-          <Preloader />
-          <Preloader />
           <Preloader />
         </div>
         <div className="mobile">
           <div className="line"></div>
+          <Preloader />
+          <Preloader />
+          <Preloader />
+          <Preloader />
+        </div>
+        <div className="mobile">
+          <div className="line"></div>
+          <Preloader />
           <Preloader />
           <Preloader />
           <Preloader />
@@ -55,9 +57,11 @@ const App = () => {
           <Preloader />
           <Preloader />
           <Preloader />
+          <Preloader />
         </div>
         <div className="mobile tablet">
           <div className="line"></div>
+          <Preloader />
           <Preloader />
           <Preloader />
           <Preloader />
