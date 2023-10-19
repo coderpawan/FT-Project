@@ -1,0 +1,66 @@
+.cardContainer{
+    height: 19vh;
+    
+    width: 100%;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 8px;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: rgba(200, 200, 202, 0.3) 0px 1px 2px 0px, rgba(193, 194, 194, 0.15) 0px 1px 3px 1px;
+    background: white;
+}
+
+.cardContainer > *{
+    width: 100%;
+}
+
+.noStatus{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: silver;
+    border-radius: 50%;
+}
+.avaiStatus{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: rgb(2, 221, 2) !important; 
+    /* color: aqua; */
+    border-radius: 50%;
+}
+
+.cardTags{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tags{
+    font-size: 18px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 233, 233);
+}
+.para{
+    display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 3em;
+  width: 85%;
+  white-space: normal;
+}
+/* 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cardContainer{
+      height: 19vh;
+    }
+  } */
